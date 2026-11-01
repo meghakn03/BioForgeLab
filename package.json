@@ -1,0 +1,12 @@
+{
+  "name": "bioforge-lab",
+  "private": true,
+  "scripts": {
+    "start": "docker compose up --build --detach --wait",
+    "build": "npm --prefix frontend run build",
+    "test": ".venv/bin/python -m pytest backend/tests -q",
+    "start:local": "python3 scripts/start.py",
+    "stop": "docker compose stop",
+    "logs": "docker compose logs --follow"
+  }
+}
