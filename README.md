@@ -1,3 +1,5 @@
+**Tech stack:** Python, Biopython, scikit-learn, FastAPI, React, TypeScript, PostgreSQL, SQLAlchemy, MLflow, Plotly, Docker Compose
+
 # BioForge Lab
 
 An end-to-end computational biology workspace: FASTA analysis, labelled protein data ingestion, solubility regression, reproducible evaluation, candidate comparison, and a polished React dashboard.
